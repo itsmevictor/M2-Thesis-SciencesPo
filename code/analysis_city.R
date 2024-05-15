@@ -6,7 +6,7 @@
 pacman::p_load(tidyverse, arrow, readxl, writexl, janitor, tictoc, stringi, countrycode, rdrobust, rddensity, stargazer, showtext)
 
 # Working directory
-wd <- getwd()
+wd <- paste0(getwd(), "/private")
 
 # Load convenient functions
 lapply(list.files("/Users/victorkreitmann/Desktop/synced/life/academia-pro/useful_scripts/r_functions/", pattern = "*.R", full.names = TRUE), source)
